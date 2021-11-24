@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina Web Arquitectura de Computadoras</title>
+    <link rel="shortcut icon" href="img/IconPc.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio ||</a>
+            <a href="Unidad1.html">Unidad 1</a>
+            <a href="Unidad2.html">Unidad 2</a>
+            <a href="Unidad3.html">Unidad 3</a>
+            <a href="Unidad4.html">Unidad 4 ||</a>
+            <a href="TemasCurso.html">Temas del Curso</a>
+            <a href="TrabajoClase.html">Trabajo en Clase</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Autor de la pagina: Mauricio Ezequiel Puente Rocha</h1>
+            <h2>Matricula: 19051181<br>Hora clase: 14:00 - 15:00 PM</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Introducci&oacute;n</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/blue.jpg" alt="" class="imagen-about-us">
+                
+                <div class="contenido-textos">                    
+                    <p>En la actualidad, el t&eacute;rmino computadora es habitual y se encuentra presente directa o indirectamente en todas las actividades del ser humano.
+                    Es por ello que para aprovechar el potencial de la computadora se requiere conocer los fundamentos que le rigen, as&iacute; como las partes que la integran.<br>
+                    El concepto de computadora, se describen los elementos que la conforman, tanto el software como el hardware.
+                    Además, resulta importante describir las características de las generaciones de computadoras, con el objetivo de    identificar la evoluci&oacute;n tecnológica que han tenido.
+                    Describiremos las características de los microprocesadores, permitiéndole identificar el que más se ajuste a sus necesidades.
+                    En ese sentido, es de gran relevancia conocer el carácter técnico de las computadoras.
+                    <br><br>    
+                    El concepto de arquitecturas de computadoras, enfocado al punto de vista de un programador, se relaciona con el funcionamiento de un sistema.
+                    Incluyendo aspectos como el tamaño de los diferentes datos y los tipos de operaciones que se puedan realizar.
+                    La estructura de las computadoras se refiere a la organizaci&oacute;n de los elementos que nos son visibles para el programador, como las interfaces hacia los dispositivos periféricos, la frecuencia de reloj y la tecnología utilizada en las memorias, así como más elementos.
+                    <br><br>
+                    En la arquitectura de computadoras utilizamos niveles. Su idea es en enfoques, desde los cuales poder considerar la estructura de las computadoras, desde un nivel superior, en el cual los usuarios ejecutan programas utilizando la computadora, al nivel inferior, que consiste en transistores y cables, y los niveles intermedios.</p>
+                    <h3><span>*</span>Historia</h3>
+                    <p>La existencia de dispositivos mecanizados que eran utilizados para el control de operaciones complejas, son conocidos desde el siglo XVI, utilizando cilindros rotativos con clavijas para las cajas de m&uacute;sica.
+                    <br>
+                    Blas Pascal, desarrollo una calculadora mec&aacute;nica, sumadoras, en 1800 agruparon los conceptos de control y calculo mec&aacute;nico en una sola m&aacute;quina, que se pueden reconocer como las partes b&aacute;sicas de integraci&oacute;n de las computadoras.<br><br>  
+                    <img src="img/pascal1.jpg" width= "49%" height= "200px">     
+                    <br><br>
+                    Charles Babbage, diseño m&aacute;quinas que resolviera c&aacute;lculos a trav&eacute;s de posicionamiento de engranajes y de su movimiento, incluso con plancha de impresi&oacute;n llamada m&aacute;quina diferencial la máquina anal&iacute;tica de Babbage pose&iacute;a bifurcaciones para la toma de decisiones y medios para programar tarjetas perforadas.
+                    Poseían medios de lectura de datos de entrada, almacenamiento, producci&oacute;n de datos de salida y control autom&aacute;tico de la operaci&oacute;n de la m&aacute;quina.
+                    <br><br>
+                    <img src="img/babbage.jpg" width= "49%" height= "200px">
+                    <br><br>
+                    Estas son las funciones b&aacute;sicas que se encuentran actualmente pr&aacute;cticamente en cualquier computadora moderna.
+                    En los comienzos de la segunda guerra mundial Siemens AG implemento los c&oacute;digos encriptados en una m&aacute;quina desarrollada conocida como ENIGMA.
+                    <br><br>
+                    <img src="img/enigma.jpg" width= "49%" height= "200px">
+                    <br><br>
+                    El proceso de encriptado de la información se conoc&iacute;a mucho tiempo atrás pero no se hab&iacute;a llegado a construir la m&aacute;quina.
+                    Alan Turing y otros cient&iacute;ficos ingleses crearon sistemas para descifrar c&oacute;digos.
+                    Desarrollaron COLOSSUS, una maquina decodificadora.
+                    <br><br>
+                    <img src="img/colossus.jpg" width= "49%" height= "200px">
+                    <br><br>
+                    Presper Eckert y Jonh Mauchly crearon ENIAC Para el c&aacute;lculo de tablas de trayectorias balísticas de la Marina de Estados Unidos.
+                    La programación y el ingreso de datos se realizaban a trav&eacute;s de elementos conmutadores y de intercambio de cables.
+                    <br><br>
+                    <img src="img/eniac.jpg" width= "49%" height= "200px">
+                    <br><br>
+                    Luego del &eacute;xito de ENIAC Eckert y Mauchly , trabajaron con Jonh Von Neumann , desarrollando una computadora que llamaron EDVAC , un computador de programa almacenado el desarrollo de este proser&oacute; y se construy&oacute; una computadora funcional de programa almacenado por Maurice Wilkes llamada EDSAC.
+                    <br><br>
+                    <img src="img/edsac.jpg" width= "49%" height= "200px">
+                    <br><br>
+                    En 1951 se crea la computadora denominada UNIVAC para fines administrativos, sistemas de almacenamiento con tarjetas perforadas.
+                    <br><br>
+                    <img src="img/univac.jpg" width= "49%" height= "200px">
+                    <br><br>
+                    Las computadoras Digitales se atribuyen a Von Neumann, aunque realmente fue el trabajo de un gran equipo de cient&iacute;ficos.
+
+                    De ahí el modelo de Jonh Von Neumann con sus cinco componentes principales y el desarrollo de diferentes compañ&iacute;as para el progreso hasta la actualidad de los diferentes avances tecnol&oacute;gicos de las computadoras.</p>                    
+                </div>                
+            </div>
+        </section>     
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Temario</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <a href="Archivos/Temario Unidad 1 Arquitectura de Computadoras.pdf">
+                            <img src="img/RealArq.jpg" width="98%" height="98%">
+                            <div class="hover-galeria">
+                                <img src="img/icono1.png" alt="">
+                                <p>Unidad 1.<br>Arquitectura de c&oacute;mputo</p>
+                            </div></a>
+                    </div>
+                    <div class="imagen-port">
+                        <a href="Archivos/Temario Unidad 2 Arquitectura de Computadoras.pdf">
+                        <img src="img/Arq.jpg" width="98%" height="98%">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Unidad 2.<br>Estructura y funcionamiento de la Unidad Central de Procesamiento</p>
+                        </div></a>
+                    </div>                    
+                    <div class="imagen-port">
+                        <a href="Archivos/Temario Unidad 3 Arquitectura de Computadoras.pdf">
+                        <img src="img/Arq2.jpg" width="98%" height="98%">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Unidad 3.<br>Selecci&oacute;n de componentes para ensamble de equipo de c&oacute;mputo</p>
+                        </div></a>
+                    </div>
+                    <div class="imagen-port">
+                        <a href="Archivos/Temario Unidad 4 Arquitectura de Computadoras.pdf">
+                        <img src="img/Arq3.jpg" width="98%" height="98%">
+                        <div class="hover-galeria">
+                            <img src="img/icono1.png" alt="">
+                            <p>Unidad 4.<br>Procesamiento Paralelo</p>
+                        </div></a>
+                    </div>                    
+                </div>                
+            </div>
+        </section>       
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Carrera</h4>
+                <p>Ingenieria en Sistemas Computacionales</p>
+            </div>            
+            <div class="content-foo">
+                <h4>Titular de la clase</h4>
+                <p>Miguel Maldonado Leza</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy;  | Instituto Tecnologico de Saltillo</h2>
+    </footer>
+</body>
+
+</html>
